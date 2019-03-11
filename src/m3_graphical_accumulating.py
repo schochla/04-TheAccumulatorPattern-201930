@@ -132,6 +132,12 @@ def run_test_draw_lines():
     draw_lines(7, rg.Point(50, 120), window2)
     window2.close_on_mouse_click()
 
+    # Test 4
+    title = 'Test 4 of DRAW_LINES:  6 lines, 9 lines!'
+    window3 = rg.RoseWindow(500,500, title)
+    draw_lines(6, rg.Point(100, 100), window3)
+    draw_lines(9, rg.Point(250, 325), window3)
+    window3.close_on_mouse_click()
 
 def draw_lines(n, point, window):
     """
