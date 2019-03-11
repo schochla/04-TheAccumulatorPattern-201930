@@ -105,6 +105,10 @@ def run_test_sum_from():
 
 
 def sum_from(m, n):
+    total = m
+    for m in range(n+1):
+        total = total + (m-1)
+    return total
     """
     What comes in:  The arguments are two integers m and n, with m <= n.
     What goes out:  Returns the sum of the integers from m to n,
