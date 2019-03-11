@@ -93,8 +93,8 @@ def run_test_sum_more_cosines():
 import math
 def sum_more_cosines(m, n):
     total = math.cos(m)
-    for k in range(m + n):
-        total = total + math.cos(k+1)
+    for m in range(n):
+        total = total + math.cos(m+1)
     return total
 
 
